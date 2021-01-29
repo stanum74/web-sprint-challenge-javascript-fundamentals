@@ -26,14 +26,17 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+ .map() returns a new array, also does not manipulate the original array and it also access memories and stores return values. 
+ .forEach doesn't return a new array, it allows a callback funtion to mutate the current array and iterate through every item in the array without stopping.
 2. Explain the difference between a callback and a higher order function.
-
+Callback function are functions that passes into other functions as arguments and higher order function can receive other functions as parameters.
 3. What is closure?
-
+They are created everytime a function is created so they are the key for developing a function.
 4. Describe the four rules of the 'this' keyword.
+ It is the window/console object inside the global scope. It's on the left side of the dot when we invoke a function. It refers to the specific instance of the object that is created and returned by the constructor function. When a function is invoted as constructor function, it will point to the new object that it is created.
 
 5. Why do we need super() in an extended class?
+So it can call it's parent instructor.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -58,12 +61,12 @@ Your finished project must include all of the following requirements
 #### Task A: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x ] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x ] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
